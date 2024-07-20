@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://tjnfrcmtb1ys"]
+[gd_scene load_steps=4 format=3 uid="uid://tjnfrcmtb1ys"]
 
 [ext_resource type="Script" path="res://Node2D.gd" id="1_l0tys"]
+[ext_resource type="SpriteFrames" uid="uid://deia2qrqp0s0m" path="res://player-frames.tres" id="2_3k8c6"]
+[ext_resource type="SpriteFrames" uid="uid://s2dorwm883bp" path="res://projectile-frames.tres" id="2_h0pd7"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_l0tys")
@@ -18,7 +20,9 @@ script = ExtResource("1_l0tys")
 [node name="straight-bullet" type="AnimatedSprite2D" parent="."]
 
 [node name="zigzag-bullet" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_h0pd7")
+animation = &"squid"
 
 [node name="barrier" type="AnimatedSprite2D" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
+sprite_frames = ExtResource("2_3k8c6")
+animation = &"barrier"
