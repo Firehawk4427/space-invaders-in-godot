@@ -5,4 +5,20 @@
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_l0tys")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="player1" type="AnimatedSprite2D" parent="."]
+
+[node name="player2" type="AnimatedSprite2D" parent="."]
+
+[node name="squid" type="AnimatedSprite2D" parent="."]
+
+[node name="crab" type="AnimatedSprite2D" parent="."]
+
+[node name="octopus" type="AnimatedSprite2D" parent="."]
+
+[node name="ufo" type="AnimatedSprite2D" parent="."]
+
+[node name="straight-bullet" type="AnimatedSprite2D" parent="."]
+
+[node name="zigzag-bullet" type="AnimatedSprite2D" parent="."]
+
+[node name="barrier" type="AnimatedSprite2D" parent="."]
