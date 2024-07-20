@@ -1,0 +1,103 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://deia2qrqp0s0m"]
+
+[ext_resource type="Texture2D" uid="uid://dv0msepux630i" path="res://assets/Sprites/Invaders/space__0008_ShieldFull.png" id="1_ksdvp"]
+[ext_resource type="Texture2D" uid="uid://c28o1abnoqhq3" path="res://assets/Sprites/Invaders/space__0010_PlayerExplosion.png" id="1_vpt0n"]
+[ext_resource type="Texture2D" uid="uid://cds171x7etanr" path="res://assets/Sprites/Invaders/space__0009_EnemyExplosion.png" id="2_5ifg7"]
+[ext_resource type="Texture2D" uid="uid://ciokxpsi46ys8" path="res://assets/Sprites/Invaders/space__0006_Player.png" id="2_rbmje"]
+[ext_resource type="Texture2D" uid="uid://vlxiinv0b3oh" path="res://assets/Sprites/Invaders/space__0002_B1.png" id="4_72pxv"]
+[ext_resource type="Texture2D" uid="uid://dkd4cfobtltuw" path="res://assets/Sprites/Invaders/space__0004_C1.png" id="5_ivjmt"]
+[ext_resource type="Texture2D" uid="uid://dr7qmyyuhe5md" path="res://assets/Sprites/Invaders/space__0001_A2.png" id="7_towc8"]
+[ext_resource type="Texture2D" uid="uid://b4daqtk6s2rdh" path="res://assets/Sprites/Invaders/space__0007_UFO.png" id="8_d58j4"]
+[ext_resource type="Texture2D" uid="uid://c1mlgl5g6u2qn" path="res://assets/Sprites/Invaders/space__0003_B2.png" id="9_g0ty6"]
+[ext_resource type="Texture2D" uid="uid://cycy31t35y15x" path="res://assets/Sprites/Invaders/space__0005_C2.png" id="10_6gdc1"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ksdvp")
+}],
+"loop": true,
+"name": &"barrier",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5ifg7")
+}],
+"loop": true,
+"name": &"explosion-enemy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vpt0n")
+}],
+"loop": true,
+"name": &"explosion-player",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_72pxv")
+}],
+"loop": true,
+"name": &"normal-crab",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_ivjmt")
+}],
+"loop": true,
+"name": &"normal-octopus",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_rbmje")
+}],
+"loop": true,
+"name": &"normal-player",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_towc8")
+}],
+"loop": true,
+"name": &"normal-squid",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_d58j4")
+}],
+"loop": true,
+"name": &"normal-ufo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_g0ty6")
+}],
+"loop": true,
+"name": &"shoot-crab",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_towc8")
+}],
+"loop": true,
+"name": &"shoot-squid",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_6gdc1")
+}],
+"loop": true,
+"name": &"shoot_octopus",
+"speed": 5.0
+}]
